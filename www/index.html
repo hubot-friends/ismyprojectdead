@@ -3,7 +3,28 @@
 <meta name="canonical" content="https://ismyprojectdead.com/"/>
 <meta name="description" content="A website about the death of my project."/>
 <h2>Story</h2>
-<p>I took over the maintenance of Hubot and started to realize that it was dead.</p>
+<p>I took over the maintenance of <a href="https://github.com/hubotio/hubot" title="Hubot's Github repo">Hubot</a> and started to realize that it was dead.</p>
+<p>Dead is a bit extreme. What I mean is when I first created a GitHub issue asking about the future of Hubot, it got <a href="https://github.com/hubotio/hubot/issues/1504" title="Link to the Github issue I created asking about Hubot">little attention</a>. But I just coulnd't let it go. I created <a href="https://github.com/hubotio/hubot/issues/1541" title="More active Github issue about Hubot's future">this one</a> ~ a year later. This one got more traction and resulted in me getting maintainer access to the repo. I was off to the races.</p>
+<p>I started to research the Hubot ecosystem. Starting with all the `hubot-` modules on <a href="https://www.npmjs.com" title="NPM JS">NPM</a>. I would search there, then click on the GitHub repo for the module. I was disheartened from what I saw.</p>
+
+<h2>Here's what Copilot has to say</h2>
+<hr/>
+<h2>What I found</h2>
+<p>There were a lot of dead projects. I mean a lot. I started to wonder if there was a way to tell if a project was dead. I started to think about the things that I would look for. I came up with a few things:</p>
+<ol>
+    <li>When was the last commit?</li>
+    <li>When was the last release?</li>
+    <li>How many releases have there been?</li>
+    <li>How many people are using the project?</li>
+    <li>How many people are contributing to the project?</li>
+</ol>
+<p>So I started to look for a way to get this information. I did it manually by browsing to NPM and GitHub repos. I started to think about how I could automate this. I started to think about how I could make a website that would do this for me. I started to think about how I could make a website that would do this for everyone.</p>
+<p>So I did.</p>
+<hr/>
+
+<p>I'm on a journey. Let's see where this "is my project dead?" question takes us.</p>
+
+<h2>How to tell if your project is dead</h2>
 <ol>
     <li>If you go to a website that's using your project was last updated 2014-08-01 22:17, then it's probably dead.</li>
     <li>If the thing that's using your project is using CoffeeScript, <s>it's probably dead</s> it might be alive and kicking but including a dependency that includes CoffeeScript (i.e. cypress, babel, testcafe).</li>
