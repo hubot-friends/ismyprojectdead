@@ -4,6 +4,7 @@
   "description": "A website that tells the story of my dead project.",
   "main": "index.mjs",
   "scripts": {
+    "start": "npx @hubot-friends/sfab --folder ./www --destination ./dist --verbose --scripts ./sfab-hooks --serve",
     "test": "npm t",
     "build": "npx @hubot-friends/sfab --folder ./www --destination ./dist --verbose --scripts ./sfab-hooks"
   },
