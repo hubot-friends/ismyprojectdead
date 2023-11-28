@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <base href="{{ base.href }}"/>
+        <meta name="viewport" content="initial-scale=1"/>
+        <title>{{ title }}</title>
+        <meta name="generator" content="sfab" />
+        <meta property="og:title" content="Is My Project Dead?" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content="A website about the death of my project." />
+        <meta property="og:description" content="A website about the death of my project." />
+        <link rel="canonical" href="{{ canonical }}" />
+        <meta property="og:url" content="{{ canonical }}" />
+        <meta property="og:site_name" content="ismyprojectdead" />
+    </head>
+    <body>
+        <header>
+            <h1>{{ title }}</h1>
+        </header>
+        <main>
+            {{> @partial-block }}
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

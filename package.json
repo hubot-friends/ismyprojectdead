@@ -1,0 +1,25 @@
+{
+  "name": "ismyprojectdead",
+  "version": "1.0.0",
+  "description": "A website that tells the story of my dead project.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "npm t",
+    "build": "npx @hubot-friends/sfab --folder ./www --destination ./dist --verbose --scripts ./sfab-hooks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubot-friends/ismyprojectdead.git"
+  },
+  "keywords": [
+    "dead",
+    "project",
+    "github"
+  ],
+  "author": "Joey Guerra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hubot-friends/ismyprojectdead/issues"
+  },
+  "homepage": "https://github.com/hubot-friends/ismyprojectdead#readme"
+}
